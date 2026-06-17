@@ -19,3 +19,137 @@ body{
     position:relative;
     overflow:hidden;
 }
+/* NAVBAR */
+
+nav{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:30px 70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:100;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.home-btn a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+    letter-spacing:3px;
+    transition:.3s;
+}
+
+.home-btn a:hover{
+    color:#4da6ff;
+}
+
+
+/* LEFT CONTENT */
+
+.left-content{
+    position:absolute;
+    left:8%;
+    top:50%;
+    transform:translateY(-50%);
+    width:420px;
+    z-index:10;
+}
+
+.rank{
+    color:#4da6ff;
+    letter-spacing:4px;
+    font-size:14px;
+}
+
+.left-content h1{
+    font-size:90px;
+    line-height:1;
+    margin-top:15px;
+}
+
+.left-content h3{
+    margin-top:15px;
+    font-weight:500;
+    color:#4da6ff;
+}
+
+.left-content p{
+    margin-top:20px;
+    line-height:1.8;
+    color:#bfbfbf;
+}
+
+
+/* CHARACTER */
+
+.character{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:5;
+}
+
+.character img{
+    height:90vh;
+    filter:
+    drop-shadow(0 0 20px #008cff)
+    drop-shadow(0 0 50px #008cff)
+    drop-shadow(0 0 90px #008cff);
+}
+
+
+/* BLUE AURA */
+
+.hero::before{
+    content:'';
+    position:absolute;
+    width:550px;
+    height:550px;
+    border-radius:50%;
+    background:#008cff;
+    filter:blur(180px);
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    opacity:.35;
+} 
+/* RIGHT MENU */
+
+.right-menu{
+    position:absolute;
+    right:80px;
+    top:50%;
+    transform:translateY(-50%);
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    z-index:20;
+}
+
+.right-menu h2{
+    color:white;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.right-menu a{
+    text-decoration:none;
+    color:#cfcfcf;
+    font-size:14px;
+    letter-spacing:2px;
+    transition:.3s;
+}
+
+.right-menu a:hover{
+    color:#4da6ff;
+    transform:translateX(-8px);
+}
