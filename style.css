@@ -339,3 +339,55 @@ nav{
     color:#008cff;
     transform:translateX(-8px);
 }
+@media (max-width:768px){
+
+    nav{
+        padding:20px 25px;
+    }
+
+    .logo{
+        font-size:18px;
+    }
+
+    .left-content{
+        left:20px;
+        top:65%;
+        width:180px;
+    }
+
+    .left-content h1{
+        font-size:55px;
+    }
+
+    .left-content h3{
+        font-size:14px;
+        letter-spacing:2px;
+    }
+
+    .left-content p{
+        font-size:12px;
+        line-height:1.6;
+    }
+
+    .character{
+        left:70%;
+    }
+
+    .character img{
+        height:75vh;
+    }
+
+    .right-menu{
+        right:15px;
+        gap:14px;
+    }
+
+    .right-menu a{
+        font-size:11px;
+        letter-spacing:2px;
+    }
+
+    .right-menu::before{
+        right:90px;
+    }
+}
