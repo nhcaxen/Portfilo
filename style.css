@@ -105,7 +105,31 @@ nav{
     drop-shadow(0 0 50px #008cff)
     drop-shadow(0 0 90px #008cff);
 }
+.character img{
+    height:90vh;
+    filter:
+    drop-shadow(0 0 20px #008cff)
+    drop-shadow(0 0 50px #008cff)
+    drop-shadow(0 0 90px #008cff);
 
+    animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-20px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
 
 /* BLUE AURA */
 
