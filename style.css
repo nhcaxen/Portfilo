@@ -153,3 +153,15 @@ nav{
     color:#4da6ff;
     transform:translateX(-8px);
 }
+body{
+    opacity:0;
+    transition:1.2s;
+}
+
+body.loaded{
+    opacity:1;
+}
+
+.character{
+    transition:0.2s linear;
+}
