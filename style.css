@@ -165,3 +165,31 @@ body.loaded{
 .character{
     transition:0.2s linear;
 }
+.hero::before{
+    content:'';
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:#008cff;
+    border-radius:50%;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    filter:blur(150px);
+    opacity:.35;
+    animation:aura 4s ease-in-out infinite;
+}
+
+@keyframes aura{
+    0%{
+        transform:translate(-50%,-50%) scale(1);
+    }
+
+    50%{
+        transform:translate(-50%,-50%) scale(1.15);
+    }
+
+    100%{
+        transform:translate(-50%,-50%) scale(1);
+    }
+}
