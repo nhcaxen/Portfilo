@@ -38,21 +38,26 @@ nav{
 }
 
 .logo{
-    font-size:28px;
-    font-weight:700;
-    letter-spacing:2px;
+    font-size:24px;
+    font-weight:900;
+    letter-spacing:4px;
+    color:white;
 }
 
 .home-btn a{
-    color:white;
     text-decoration:none;
-    font-size:14px;
-    letter-spacing:3px;
+    color:white;
+    border:1px solid rgba(255,255,255,0.2);
+    padding:10px 20px;
+    border-radius:30px;
+    backdrop-filter:blur(10px);
+    background:rgba(255,255,255,0.05);
     transition:.3s;
 }
 
 .home-btn a:hover{
-    color:#4da6ff;
+    background:#008cff;
+    box-shadow:0 0 20px #008cff;
 }
 
 
