@@ -48,7 +48,7 @@ nav{
     border-bottom:1px solid rgba(255,255,255,0.08);
 }
 .nav-links{
-    display:flex;
+    display:none;
     gap:10px;
 }
 
