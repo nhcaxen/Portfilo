@@ -436,7 +436,22 @@ nav{
         padding:8px 12px;
     }
 
+    @media (max-width:768px){
+
+    nav{
+        padding:15px;
+        flex-wrap:wrap;
+        gap:10px;
+    }
+
+    .nav-links{
+        width:100%;
+        justify-content:center;
+        margin-top:10px;
+    }
+
     .right-menu{
         display:none;
     }
-}
+
+    }
