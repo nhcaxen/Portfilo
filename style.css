@@ -377,23 +377,23 @@ nav{
         display:flex;
         flex-wrap:wrap;
         justify-content:center;
-        gap:8px;
+        gap:5px;
         margin-top:10px;
     }
 
     .nav-links a{
-        font-size:10px;
-        padding:8px 12px;
+        font-size:9px;
+        padding:6px 10px;
     }
 
     .left-content{
-        left:20px;
-        top:65%;
-        width:180px;
+        left:35px;
+        top:48%;
+        width:220px;
     }
 
     .left-content h1{
-        font-size:55px;
+        font-size:60px;
     }
 
     .left-content h3{
@@ -407,7 +407,7 @@ nav{
     }
 
     .character{
-        left:75%;
+        left:78%;
     }
 
     .character img{
