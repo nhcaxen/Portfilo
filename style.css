@@ -388,8 +388,9 @@ nav{
 
     .left-content{
         left:35px;
-        top:42%;
-        width:220px;
+        top:25%;
+        width:220px
+        transform:none;
     }
 
     .left-content h1{
