@@ -64,15 +64,22 @@ nav{
 }
 
 .rank{
-    color:#4da6ff;
-    letter-spacing:4px;
+    color:#6ea8ff;
+    letter-spacing:6px;
     font-size:14px;
+    font-weight:700;
 }
 
 .left-content h1{
     font-size:90px;
     line-height:1;
     margin-top:15px;
+    font-weight:900;
+    letter-spacing:6px;
+    text-transform:uppercase;
+    text-shadow:
+    0 0 20px #008cff,
+    0 0 40px #008cff;
 }
 
 .left-content h3{
@@ -81,10 +88,12 @@ nav{
     color:#4da6ff;
 }
 
+
 .left-content p{
     margin-top:20px;
     line-height:1.8;
     color:#bfbfbf;
+    max-width:320px;
 }
 
 
@@ -155,7 +164,9 @@ nav{
     transform:translateY(-50%);
     display:flex;
     flex-direction:column;
-    gap:15px;
+    align-items:flex-end;
+    text-align:right;
+    gap:20px;
     z-index:20;
 }
 
@@ -169,7 +180,7 @@ nav{
     text-decoration:none;
     color:#cfcfcf;
     font-size:14px;
-    letter-spacing:2px;
+    letter-spacing:4px;
     transition:.3s;
 }
 
@@ -234,4 +245,9 @@ body.loaded{
 
 .right-menu a:hover::after{
     width:100%;
+}
+
+.right-menu a:hover{
+    color:#008cff;
+    transform:translateX(-8px);
 }
