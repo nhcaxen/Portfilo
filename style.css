@@ -217,3 +217,21 @@ body.loaded{
         transform:translate(-50%,-50%) scale(1);
     }
 }
+.right-menu a{
+    position:relative;
+}
+
+.right-menu a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-4px;
+    width:0;
+    height:2px;
+    background:#008cff;
+    transition:.4s;
+}
+
+.right-menu a:hover::after{
+    width:100%;
+}
