@@ -77,9 +77,13 @@ nav{
     font-weight:900;
     letter-spacing:6px;
     text-transform:uppercase;
+    color:#ffffff;
+
     text-shadow:
-    0 0 20px #008cff,
-    0 0 40px #008cff;
+    0 0 10px #008cff,
+    0 0 25px #008cff,
+    0 0 50px #008cff,
+    0 0 100px #008cff;
 }
 
 .left-content h3{
