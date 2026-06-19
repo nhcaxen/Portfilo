@@ -52,3 +52,4 @@ profileBtn.addEventListener("click", function(e){
 closeModal.addEventListener("click", function(){
     systemModal.classList.remove("active");
 });
+console.log("NEW VERSION");
