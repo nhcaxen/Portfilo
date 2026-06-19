@@ -555,44 +555,34 @@ nav{
     font-size:12px;
     }
 
-    .orb{
-        width:60px;
-        height:60px;
-    }
+.card-slider{
+    display:flex;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    gap:20px;
 
-    .analytics-card{
-    width:160px;
-    height:100px;
-    padding:12px;
-    display:block !important;
-    }
+    width:100%;
+    padding:10px;
 
-}
-.mini-chart{
-   display:flex;
-   align-items:flex-end;
-   justify-content:space-between;
-   height:60px;
-   margin-top:15px;
+    scrollbar-width:none;
 }
 
-.bar{
-   width:18px;
-   background:#008cff;
-   border-radius:10px;
+
+    
+.card-slider::-webkit-scrollbar{
+    display:none;
 }
 
-.b1{height:20px;}
-.b2{height:35px;}
-.b3{height:55px;}
-.b4{height:40px;}
-.b5{height:65px;}
-.bar{
-   width:18px;
-   background:#008cff;
-   border-radius:10px;
+.profile-card{
+    min-width:85%;
+    height:320px;
 
-   box-shadow:
-   0 0 10px #008cff,
-   0 0 20px #008cff;
+    scroll-snap-align:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
 }
