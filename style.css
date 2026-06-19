@@ -514,8 +514,6 @@ nav{
     scrollbar-width:none;
 }
 
-
-    
 .profile-card{
     width:92%;
     flex:0 0 92%;
@@ -524,24 +522,21 @@ nav{
 
     border-radius:35px;
 
-    background:rgba(255,255,255,0.04);
-    backdrop-filter:blur(25px);
+    background:rgba(15,18,30,0.45);
 
-    border:1px solid rgba(255,255,255,0.08);
+    backdrop-filter:blur(35px);
+    -webkit-backdrop-filter:blur(35px);
+
+    border:1px solid rgba(255,255,255,0.18);
 
     box-shadow:
-    0 0 30px rgba(0,140,255,.15);
-
-    scroll-snap-align:center;
-
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+        inset 0 1px 1px rgba(255,255,255,0.25),
+        inset 0 -1px 1px rgba(255,255,255,0.05),
+        0 8px 32px rgba(0,0,0,0.45);
 
     position:relative;
+    overflow:hidden;
 }
-
     .profile-card{
     position:relative;
 }
@@ -549,11 +544,19 @@ nav{
 .profile-card::after{
     content:'';
     position:absolute;
-    inset:0;
-    border-radius:35px;
+    top:0;
+    left:-50%;
+    width:60%;
+    height:100%;
 
-    box-shadow:
-        0 0 15px rgba(0,140,255,.25);
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,0.08),
+        transparent
+    );
+
+    transform:skewX(-20deg);
 
     pointer-events:none;
 }
