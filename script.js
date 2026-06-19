@@ -36,4 +36,19 @@ setInterval(() => {
     character.style.transform =
         `translateX(-50%) translateY(${position}px)`;
 }, 30);
-alert("JS WORKING");
+const profileBtn = document.getElementById("profileBtn");
+const systemModal = document.getElementById("systemModal");
+const closeModal = document.querySelector(".close-modal");
+
+console.log(profileBtn);
+console.log(systemModal);
+console.log(closeModal);
+
+profileBtn.addEventListener("click", function(e){
+    e.preventDefault();
+    systemModal.classList.add("active");
+});
+
+closeModal.addEventListener("click", function(){
+    systemModal.classList.remove("active");
+});
