@@ -36,3 +36,4 @@ setInterval(() => {
     character.style.transform =
         `translateX(-50%) translateY(${position}px)`;
 }, 30);
+alert("JS WORKING");
