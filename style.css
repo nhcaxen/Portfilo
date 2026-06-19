@@ -561,9 +561,29 @@ nav{
     }
 
     .analytics-card{
-        width:280px;
-        height:auto;
-        padding:20px;
+    width:180px;
+    height:120px;
+    padding:15px;
+    display:block !important;
     }
 
 }
+.mini-chart{
+   display:flex;
+   align-items:flex-end;
+   justify-content:space-between;
+   height:60px;
+   margin-top:15px;
+}
+
+.bar{
+   width:18px;
+   background:#008cff;
+   border-radius:10px;
+}
+
+.b1{height:20px;}
+.b2{height:35px;}
+.b3{height:55px;}
+.b4{height:40px;}
+.b5{height:65px;}
