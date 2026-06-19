@@ -542,6 +542,22 @@ nav{
     position:relative;
 }
 
+    .profile-card{
+    position:relative;
+}
+
+.profile-card::after{
+    content:'';
+    position:absolute;
+    inset:0;
+    border-radius:35px;
+
+    box-shadow:
+        0 0 15px rgba(0,140,255,.25);
+
+    pointer-events:none;
+}
+    
  .profile-card::before{
     content:"→";
     position:absolute;
