@@ -418,3 +418,60 @@ nav{
         display:none;
     }
 }
+.system-section{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    padding:80px 20px;
+}
+
+.system-top{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+}
+
+.glass-card{
+    width:260px;
+    height:180px;
+
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:30px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+.orb{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#008cff;
+
+    box-shadow:
+    0 0 30px #008cff,
+    0 0 60px #008cff,
+    0 0 120px #008cff;
+
+    font-weight:700;
+}
+
+.analytics-card{
+    width:320px;
+    height:180px;
+}
