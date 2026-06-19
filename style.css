@@ -420,73 +420,35 @@ nav{
 }
 /* MODAL */
 
-.system-modal::before{
-    content:'';
-    position:absolute;
-
-    width:500px;
-    height:500px;
-
-    background:#008cff;
-    border-radius:50%;
-
-    top:50%;
-    left:50%;
-
-    transform:translate(-50%,-50%);
-
-    filter:blur(180px);
-
-    opacity:.35;
-
-    pointer-events:none;
-}
 .system-modal{
-display:none;              /* by default chhupa rahe */
     position:fixed;
     inset:0;
-    z-index:999;
-    background:rgba(5,8,22,0.92);
-    backdrop-filter:blur(10px);
-    /* center karne ke liye */
-    align-items:center;        /* flex-start hata diya */
-    justify-content:center;
-    padding:20px;
-    padding-top:20px;          /* 80px hata diya */
+
+    background:rgba(0,0,0,.82);
+
+    display:none;
+
+    z-index:9999;
+
+    overflow:hidden;
 }
 
 .system-modal.active{
-    display:flex;
-}
-
-.modal-content{
-    transform:none;
-    width:100%
-    max-width:1100px;
-    justify-content:center;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:40px;
-
-    position:relative;
+    display:block;
 }
 
 .close-modal{
-    position:absolute;
-    top:-50px;
-    right:0;
+    position:fixed;
 
-    font-size:40px;
-    cursor:pointer;
+    top:30px;
+    right:30px;
+
+    font-size:42px;
     color:white;
-}
 
-.system-top{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:40px;
+    cursor:pointer;
+
+    z-index:10000;
 }
 
 .glass-card{
