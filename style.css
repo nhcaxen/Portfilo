@@ -439,17 +439,14 @@ nav{
 
 .close-modal{
     position:fixed;
-
-    top:30px;
-    right:30px;
-
+    top:20px;
+    right:20px;
     font-size:42px;
     color:white;
-
     cursor:pointer;
-
     z-index:10000;
 }
+
 
 .glass-card{
     width:260px;
@@ -500,9 +497,9 @@ nav{
 
 
 .profile-card{
-    width:92%;
-    flex:0 0 92%;
-    height:420px;
+    width:88%;
+    flex:0 0 88%;
+    height:460px;
     margin:auto;
 
     border-radius:35px;
