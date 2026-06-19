@@ -387,10 +387,9 @@ nav{
     }
 
     .left-content{
-    left:35px;
-    top:44%;
+    left:35px !important;
+    top:35% !important;
     width:220px;
-    transform:translateY(-50%);
     }
 
     .left-content h1{
