@@ -46,7 +46,6 @@ console.log(closeModal);
 
 profileBtn.addEventListener("click", function(e){
     e.preventDefault();
-    alert("PROFILE CLICKED");
     systemModal.classList.add("active");
 });
 
