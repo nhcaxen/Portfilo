@@ -546,24 +546,24 @@ nav{
         flex-direction:row;
         justify-content:center;
         align-items:center;
-        gap:15px;
+        gap:10px;
     }
 
     .glass-card{
-    width:95px;
-    height:95px;
+    width:130px;
+    height:120px;
     font-size:12px;
     }
 
     .orb{
-        width:100px;
-        height:100px;
+        width:60px;
+        height:60px;
     }
 
     .analytics-card{
-    width:180px;
-    height:120px;
-    padding:15px;
+    width:160px;
+    height:100px;
+    padding:12px;
     display:block !important;
     }
 
@@ -587,3 +587,12 @@ nav{
 .b3{height:55px;}
 .b4{height:40px;}
 .b5{height:65px;}
+.bar{
+   width:18px;
+   background:#008cff;
+   border-radius:10px;
+
+   box-shadow:
+   0 0 10px #008cff,
+   0 0 20px #008cff;
+}
