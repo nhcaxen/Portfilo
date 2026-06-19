@@ -442,11 +442,13 @@ nav{
     pointer-events:none;
 }
 
-.system-modal.active{
-    display:flex;
+.system-modal{
+    align-items:flex-start;
+    padding-top:80px;
 }
 
 .modal-content{
+    transform:translateY(-80px);
     width:100%;
     padding-top:0;
     max-width:1100px;
